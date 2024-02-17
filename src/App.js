@@ -1,7 +1,7 @@
-import "./App.css";
-import "./components/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "./App.css";
+import "./components/style.css";
 import Chart from "chart.js/auto";
 
 import { ToastContainer } from "react-toastify";
