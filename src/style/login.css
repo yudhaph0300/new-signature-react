@@ -1,0 +1,17 @@
+.login-form {
+  background-image: url('/src/asset/bg-login.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: -50px;
+  padding-bottom: -50px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+
+ 

@@ -1,0 +1,7 @@
+.chart-thumb {
+   width: 100px; /* Lebar gambar */
+   height: 100px; /* Tinggi gambar */
+   object-fit: cover; /* Untuk mempertahankan aspek rasio gambar */
+   object-position: center; /* Posisi gambar di dalam kontainer */
+   border-radius: 8px; /* Untuk sudut melengkung */
+ }

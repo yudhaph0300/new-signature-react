@@ -1,0 +1,90 @@
+.hero-text {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text-second {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .hero-text-second {
+    display: none;
+  }
+
+
+}
+
+/* style/home.css */
+
+.container-search {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .search-container {
+    width: 80%;
+  }
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-button {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.furniture-recommended {
+  margin-top: 100px;
+}
+
+.text-heading-rec {
+  padding: 0 15%;
+}
+
+.card-tag {
+  background-color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .text-heading-rec {
+    padding: 0;
+  }
+}
