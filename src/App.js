@@ -35,6 +35,8 @@ import Cart from "./pages/Cart";
 import HistoryTransactions from "./pages/HistoryTransactions";
 import HistoryDetail from "./pages/HistoryDetail";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <>
@@ -88,6 +90,7 @@ function App() {
         </Routes>
       </Router>
       <ToastContainer />
+      <Analytics />
     </>
   );
 }
